@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import calculatorIcon from '/images/icon-calculator.svg'
-import illustration from '/images/illustration-empty.svg'
+import calculatorIcon from './assets/images/icon-calculator.svg'
+import illustration from './assets/images/illustration-empty.svg'
 
 function App() {
   const [amount, setAmount] = useState('');
